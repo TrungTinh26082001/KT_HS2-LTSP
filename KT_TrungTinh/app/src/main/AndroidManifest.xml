@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.csc.kt_trungtinh">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KT_TrungTinh">
+        <activity
+            android:name=".ProductActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListView4"
+            android:exported="false" />
+        <activity
+            android:name=".TTSVMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListView3"
+            android:exported="false" />
+        <activity
+            android:name=".ListView2"
+            android:exported="false" />
+        <activity
+            android:name=".ListView1"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_KT6"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_KT5"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_KT4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_KT3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_KT2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_KT1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
